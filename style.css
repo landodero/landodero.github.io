@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif, Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252626;
+}
+
+pre {
+    color: #72D58B;
+}
+
+#terminal-box {
+    padding: 5vh;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+#terminal {
+    color: white;
+    line-height: 1.5rem;
+}
+
+#terminal, #terminal input {
+    font-size: 16px;
+}
+
+#terminal input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
